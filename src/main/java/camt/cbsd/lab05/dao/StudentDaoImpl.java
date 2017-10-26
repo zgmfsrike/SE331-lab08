@@ -46,6 +46,11 @@ public class StudentDaoImpl implements StudentDao {
         }
     }
 
+    @Override
+    public Integer size() {
+        return null;
+    }
+
     @PostConstruct
     protected void init(){
         this.imageBaseUrl = this.baseUrl + this.imageUrl;
