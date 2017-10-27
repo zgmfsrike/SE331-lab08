@@ -2,6 +2,11 @@
   "hints": [],
   "groups": [
     {
+      "sourceType": "camt.cbsd.lab05.config.DataLoading",
+      "name": "server",
+      "type": "camt.cbsd.lab05.config.DataLoading"
+    },
+    {
       "sourceType": "camt.cbsd.lab05.service.StudentServiceImpl",
       "name": "server",
       "type": "camt.cbsd.lab05.service.StudentServiceImpl"
