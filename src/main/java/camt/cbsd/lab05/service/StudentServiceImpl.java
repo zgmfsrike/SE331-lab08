@@ -11,7 +11,7 @@ import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 
-@Profile("firstDataSource")
+@Profile("DBDataSource")
 @ConfigurationProperties(prefix = "server")
 @Service
 public class StudentServiceImpl implements StudentService {
